@@ -13,6 +13,6 @@ however portions of the Assets are available under separate license terms.
 
 All assets in ContactGloveOSC under the following directories were created using OSCmooth.
 
-:Packages\jp.diver-x.contactgloveosc\Runtime\Gesture\Controller\Smoothed
-:Packages\jp.diver-x.contactgloveosc\Runtime\Gesture\SmoothAnimator
+<br>:Packages\jp.diver-x.contactgloveosc\Runtime\Gesture\Controller\Smoothed</br>
+<br>:Packages\jp.diver-x.contactgloveosc\Runtime\Gesture\SmoothAnimator</br>
 is licensed under the MIT license for OSCmooth(https://github.com/regzo2/OSCmooth).
