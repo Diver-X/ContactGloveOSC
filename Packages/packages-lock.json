@@ -148,6 +148,12 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "jp.diver-x.contactgloveosc": {
+      "version": "file:jp.diver-x.contactgloveosc",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,

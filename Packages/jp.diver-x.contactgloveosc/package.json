@@ -1,0 +1,15 @@
+{
+  "name": "jp.diver-x.contactgloveosc",
+  "displayName": "ContactGloveOSC",
+  "version": "1.0.0",
+  "unity": "2019.4",
+  "description": "About Avatar Gimmick & Automatic Setup Tool for Hand Tracking with ContactGlove using VRChat OSC API.",
+  "url": "https://github.com/Diver-X/ContactGloveOSC/",
+  "documentationUrl": "https://docs.diver-x.jp/vrchat/setup_overview.html",
+  "author": {
+    "name": "Diver-X"
+  },
+  "legacyFolders": {
+    "Assets\\ContactGloveOSC": ""
+  }
+}
