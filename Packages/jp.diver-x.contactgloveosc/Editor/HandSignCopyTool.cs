@@ -142,7 +142,7 @@ namespace ContactGloveOSC.Editor
                         return "ステータス:";
                     else if (key == "Select Language:")
                         return "言語:";
-                    else if (key == "ContactGlove Gesture Animations Directory  :  Packages/jp.diver-x.contactgloveosc/Runtime/Gesture/HandSign[Experimental]/Left & ./Right")
+                    else if (key == "ContactGlove Gesture Animations Directory  :  Packages/ContactGloveOSC/Runtime/Gesture/HandSign[Experimental]/Left & ./Right")
                         return "ContactGlove用ハンドサインAnimationの場所  :  Packages/ContactGloveOSC/Runtime/Gesture/HandSign[Experimental]/Left & ./Right";
                     else if (key == "")
                         return "";
