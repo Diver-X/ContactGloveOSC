@@ -86,7 +86,7 @@ namespace ContactGloveOSC.Editor
 
             EditorGUILayout.Space();
 
-            EditorGUILayout.LabelField(GetLocalizedString("ContactGlove Gesture Animations Directory  :  Packages/jp.diver-x.contactgloveosc/Runtime/Gesture/HandSign[Experimental]/Left & ./Right"), EditorStyles.boldLabel);
+            EditorGUILayout.LabelField(GetLocalizedString("ContactGlove Gesture Animations Directory  :  Packages/ContactGloveOSC/Runtime/Gesture/HandSign[Experimental]/Left & ./Right"), EditorStyles.boldLabel);
         }
         private void OnEnable()
         {
@@ -143,7 +143,7 @@ namespace ContactGloveOSC.Editor
                     else if (key == "Select Language:")
                         return "言語:";
                     else if (key == "ContactGlove Gesture Animations Directory  :  Packages/jp.diver-x.contactgloveosc/Runtime/Gesture/HandSign[Experimental]/Left & ./Right")
-                        return "ContactGlove用ハンドサインAnimationの場所  :  Packages/jp.diver-x.contactgloveosc/Runtime/Gesture/HandSign[Experimental]/Left & ./Right";
+                        return "ContactGlove用ハンドサインAnimationの場所  :  Packages/ContactGloveOSC/Runtime/Gesture/HandSign[Experimental]/Left & ./Right";
                     else if (key == "")
                         return "";
                     else if (key == "Set Left for Right Gesture Animation")
