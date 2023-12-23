@@ -3,6 +3,13 @@
 
 # Change this to match your new package name
 !jp.diver-x.contactgloveosc
+!com.vrchat.core.*/
 com.vrchat.*/
 # ignore editor savedates
 Packages/jp.diver-x.contactgloveosc/Data
+
+# ignore other package 
+Packages/nadena.dev.modular-avatar
+Packages/nadena.dev.ndmf
+
+
