@@ -27,8 +27,8 @@ namespace ContactGloveOSC.Editor
         private static void ShowWindow()
         {
             HandSignCopyTool window = GetWindow(typeof(HandSignCopyTool), false, "HandSign Copy Tool") as HandSignCopyTool;
-            window.minSize = new Vector2(800f, 450f); // Increased initial width
-            window.maxSize = new Vector2(800f, 450f); // Increased initial width
+            window.minSize = new Vector2(800f, 480f); // Increased initial width
+            window.maxSize = new Vector2(800f, 480f); // Increased initial width
             window.LoadSettings();
         }
 
@@ -86,7 +86,9 @@ namespace ContactGloveOSC.Editor
 
             EditorGUILayout.Space();
 
-            EditorGUILayout.LabelField(GetLocalizedString("ContactGlove Gesture Animations Directory  :  Packages/ContactGloveOSC/Runtime/Gesture/HandSign[Experimental]/Left & ./Right"), EditorStyles.boldLabel);
+            EditorGUILayout.LabelField(GetLocalizedString("ContactGlove Gesture Animations Directory"), EditorStyles.boldLabel);
+            EditorGUILayout.LabelField("Left  : Packages/ContactGloveOSC/Runtime/Gesture/HandSign[Experimental]/Left", EditorStyles.boldLabel);
+            EditorGUILayout.LabelField("Right: Packages/ContactGloveOSC/Runtime/Gesture/HandSign[Experimental]/Right", EditorStyles.boldLabel);
         }
         private void OnEnable()
         {
@@ -142,8 +144,8 @@ namespace ContactGloveOSC.Editor
                         return "ステータス:";
                     else if (key == "Select Language:")
                         return "言語:";
-                    else if (key == "ContactGlove Gesture Animations Directory  :  Packages/ContactGloveOSC/Runtime/Gesture/HandSign[Experimental]/Left & ./Right")
-                        return "ContactGlove用ハンドサインAnimationの場所  :  Packages/ContactGloveOSC/Runtime/Gesture/HandSign[Experimental]/Left & ./Right";
+                    else if (key == "ContactGlove Gesture Animations Directory")
+                        return "ContactGlove用ハンドサインAnimationの場所";
                     else if (key == "")
                         return "";
                     else if (key == "Set Left for Right Gesture Animation")
