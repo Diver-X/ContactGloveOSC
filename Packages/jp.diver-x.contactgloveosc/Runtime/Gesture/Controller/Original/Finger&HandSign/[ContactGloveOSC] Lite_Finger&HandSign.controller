@@ -295,7 +295,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1102 &-8684814012756883605
 AnimatorState:
@@ -630,7 +630,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &-8100700504910296562
 AnimatorStateTransition:
@@ -769,7 +769,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1102 &-7829955001184782145
 AnimatorState:
@@ -1067,7 +1067,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1107 &-7461601616319423968
 AnimatorStateMachine:
@@ -1086,7 +1086,7 @@ AnimatorStateMachine:
     m_Position: {x: 490, y: 110, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -8583623299511892547}
-    m_Position: {x: 490, y: 190, z: 0}
+    m_Position: {x: 480, y: 190, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -2342,7 +2342,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &-5733869636279650536
 AnimatorStateTransition:
@@ -2531,7 +2531,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &-5576915870740506711
 AnimatorStateTransition:
@@ -2745,7 +2745,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!114 &-5316417740789153002
 MonoBehaviour:
@@ -2772,7 +2772,7 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0.2
     destMax: 0.7
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &-5226447202643553302
 AnimatorStateTransition:
@@ -3418,7 +3418,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &-4445235416964086667
 AnimatorStateTransition:
@@ -3795,7 +3795,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &-3965381782129642629
 AnimatorStateTransition:
@@ -3932,7 +3932,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!114 &-3760053857787911762
 MonoBehaviour:
@@ -3959,7 +3959,7 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0.2
     destMax: 0.7
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &-3710913625372213138
 AnimatorStateTransition:
@@ -4293,7 +4293,7 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0.2
     destMax: 0.7
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &-3412150675180946380
 AnimatorStateTransition:
@@ -4507,7 +4507,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &-3102397964840383072
 AnimatorStateTransition:
@@ -4826,7 +4826,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &-2873690332630173233
 AnimatorStateTransition:
@@ -4928,7 +4928,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!114 &-2787742269058325101
 MonoBehaviour:
@@ -5039,7 +5039,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!114 &-2563494102118979705
 MonoBehaviour:
@@ -5066,7 +5066,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &-2557805479122457627
 AnimatorStateTransition:
@@ -5302,7 +5302,7 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0.2
     destMax: 0.7
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1102 &-2170560180990981940
 AnimatorState:
@@ -5767,7 +5767,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1102 &-1899255617645142211
 AnimatorState:
@@ -5906,7 +5906,7 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0.2
     destMax: 0.7
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!206 &-1690667874725000015
 BlendTree:
@@ -6209,7 +6209,7 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0.2
     destMax: 0.7
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &-1376155720026632381
 AnimatorStateTransition:
@@ -6367,7 +6367,7 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0.2
     destMax: 0.7
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1107 &-1268629658861781557
 AnimatorStateMachine:
@@ -6916,7 +6916,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!114 &-587231820933211940
 MonoBehaviour:
@@ -7027,7 +7027,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &-579037493443249319
 AnimatorStateTransition:
@@ -7094,7 +7094,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &-497715400018031951
 AnimatorStateTransition:
@@ -7174,7 +7174,7 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0.2
     destMax: 0.7
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1102 &-386608119255772402
 AnimatorState:
@@ -7258,7 +7258,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &-353805353130529842
 AnimatorStateTransition:
@@ -7440,7 +7440,7 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0.2
     destMax: 0.7
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1102 &-121167258601553141
 AnimatorState:
@@ -11632,7 +11632,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1102 &308728192383655601
 AnimatorState:
@@ -12016,7 +12016,7 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0.2
     destMax: 0.7
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &909845107592524925
 AnimatorStateTransition:
@@ -13676,7 +13676,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &1177880471672718955
 AnimatorStateTransition:
@@ -13957,7 +13957,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &1565231995709479012
 AnimatorStateTransition:
@@ -14183,7 +14183,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!114 &1861338679775289313
 MonoBehaviour:
@@ -14294,7 +14294,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1102 &2001343789964278829
 AnimatorState:
@@ -14488,7 +14488,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!206 &2344374715592144432
 BlendTree:
@@ -14855,7 +14855,7 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0.2
     destMax: 0.7
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &3043488482300024170
 AnimatorStateTransition:
@@ -14919,7 +14919,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!114 &3131223018153661279
 MonoBehaviour:
@@ -15030,7 +15030,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &3140623925721464779
 AnimatorStateTransition:
@@ -15364,7 +15364,7 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0.2
     destMax: 0.7
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &3783189313123201993
 AnimatorStateTransition:
@@ -15512,7 +15512,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &3978940514190598050
 AnimatorStateTransition:
@@ -15648,7 +15648,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!114 &4046179685799871114
 MonoBehaviour:
@@ -15675,7 +15675,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1102 &4056741866698347735
 AnimatorState:
@@ -15939,7 +15939,7 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0.2
     destMax: 0.7
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!114 &4403394411492267990
 MonoBehaviour:
@@ -16050,7 +16050,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1102 &4437208062222375190
 AnimatorState:
@@ -16375,7 +16375,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &4841618326900084408
 AnimatorStateTransition:
@@ -16427,7 +16427,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!206 &4931843751242401372
 BlendTree:
@@ -16946,7 +16946,7 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0.2
     destMax: 0.7
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!114 &5544608824499576420
 MonoBehaviour:
@@ -16973,7 +16973,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &5587657223409239177
 AnimatorStateTransition:
@@ -17025,7 +17025,7 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0.2
     destMax: 0.7
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &5752383852212320749
 AnimatorStateTransition:
@@ -17398,7 +17398,7 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0.2
     destMax: 0.7
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1107 &6150556848627609271
 AnimatorStateMachine:
@@ -17506,7 +17506,7 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0.2
     destMax: 0.7
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1102 &6340001225740742027
 AnimatorState:
@@ -17884,7 +17884,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1102 &6697148849117601769
 AnimatorState:
@@ -18157,7 +18157,7 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0.2
     destMax: 0.7
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1102 &7365517456227050729
 AnimatorState:
@@ -18532,7 +18532,7 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0.2
     destMax: 0.7
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1102 &7936481832213627406
 AnimatorState:
@@ -18587,7 +18587,7 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0.2
     destMax: 0.7
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &8002257847791412191
 AnimatorStateTransition:
@@ -18849,7 +18849,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!114 &8373107837657343110
 MonoBehaviour:
@@ -18960,7 +18960,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1102 &8417829906772344118
 AnimatorState:

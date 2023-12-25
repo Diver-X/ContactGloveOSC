@@ -153,7 +153,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!206 &-8919049950632378211
 BlendTree:
@@ -521,7 +521,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!206 &-8681028575927514525
 BlendTree:
@@ -1586,7 +1586,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!114 &-7075727265728276144
 MonoBehaviour:
@@ -1613,7 +1613,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!206 &-7056564148309847336
 BlendTree:
@@ -1671,7 +1671,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!206 &-6787198772305602083
 BlendTree:
@@ -1882,7 +1882,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &-6386650396841486942
 AnimatorStateTransition:
@@ -3065,7 +3065,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!206 &-4796442805651961150
 BlendTree:
@@ -4359,7 +4359,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!206 &-2707355596308476642
 BlendTree:
@@ -4401,7 +4401,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &-2661847053126493552
 AnimatorStateTransition:
@@ -4621,7 +4621,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &-2233275669663452732
 AnimatorStateTransition:
@@ -5242,7 +5242,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &-1002972696690440450
 AnimatorStateTransition:
@@ -11664,7 +11664,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!206 &1282473851979246788
 BlendTree:
@@ -12053,7 +12053,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1101 &2198492701207123001
 AnimatorStateTransition:
@@ -13177,7 +13177,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!114 &3982056478196831948
 MonoBehaviour:
@@ -13495,7 +13495,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!206 &4886619736089098131
 BlendTree:
@@ -13691,7 +13691,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!206 &5447579066978072347
 BlendTree:
@@ -14180,7 +14180,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!1102 &6308679054010679529
 AnimatorState:
@@ -14598,7 +14598,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!114 &6983808148345807736
 MonoBehaviour:
@@ -14992,7 +14992,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!206 &7934649391464144535
 BlendTree:
@@ -15081,7 +15081,7 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
-  localOnly: 1
+  localOnly: 0
   debugString: 
 --- !u!206 &7977531571703839379
 BlendTree:
