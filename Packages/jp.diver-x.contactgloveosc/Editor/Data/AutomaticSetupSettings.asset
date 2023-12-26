@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: AutomaticSetupSettings
   m_EditorClassIdentifier: 
   _avDescriptor: {fileID: 0}
-  selectedLanguage: 0
+  selectedLanguage: 1
   toggleFullVer: 1
   toggleLiteVer: 0
-  toggleHandSignSetup: 0
+  toggleHandSignSetup: 1
   onwindow: 1
-  autosetMessage: '
-
-'
+  autosetMessage: "\u73FE\u5728\u306E\u8A2D\u5B9A: Not Set ContactGloveOSC\n\u30CF\u30F3\u30C9\u30B5\u30A4\u30F3(OSC):
+    \u7121\u52B9\u5316"

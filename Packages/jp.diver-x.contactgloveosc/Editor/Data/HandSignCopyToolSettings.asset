@@ -29,20 +29,20 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   leftAnimationPaths:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Packages/com.vrchat.avatars/Samples/AV3 Demo Assets/Animation/ProxyAnim/proxy_hands_fist.anim
+  - Packages/com.vrchat.avatars/Samples/AV3 Demo Assets/Animation/ProxyAnim/proxy_hands_open.anim
+  - Packages/com.vrchat.avatars/Samples/AV3 Demo Assets/Animation/ProxyAnim/proxy_hands_point.anim
+  - Assets/HAOLAN/3.0_Animation/Animation/Animation_Handsign/DRAWVICTORY.anim
+  - Packages/com.vrchat.avatars/Samples/AV3 Demo Assets/Animation/ProxyAnim/proxy_hands_rock.anim
+  - Packages/com.vrchat.avatars/Samples/AV3 Demo Assets/Animation/ProxyAnim/proxy_hands_gun.anim
+  - Packages/com.vrchat.avatars/Samples/AV3 Demo Assets/Animation/ProxyAnim/proxy_hands_thumbs_up.anim
   rightAnimationPaths:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Packages/com.vrchat.avatars/Samples/AV3 Demo Assets/Animation/ProxyAnim/proxy_hands_fist.anim
+  - Packages/com.vrchat.avatars/Samples/AV3 Demo Assets/Animation/ProxyAnim/proxy_hands_open.anim
+  - Packages/com.vrchat.avatars/Samples/AV3 Demo Assets/Animation/ProxyAnim/proxy_hands_point.anim
+  - Assets/HAOLAN/3.0_Animation/Animation/Animation_Handsign/DRAWVICTORY.anim
+  - Packages/com.vrchat.avatars/Samples/AV3 Demo Assets/Animation/ProxyAnim/proxy_hands_rock.anim
+  - Packages/com.vrchat.avatars/Samples/AV3 Demo Assets/Animation/ProxyAnim/proxy_hands_gun.anim
+  - Packages/com.vrchat.avatars/Samples/AV3 Demo Assets/Animation/ProxyAnim/proxy_hands_thumbs_up.anim
   _avDescriptor: {fileID: 0}
   selectedLanguage: 1

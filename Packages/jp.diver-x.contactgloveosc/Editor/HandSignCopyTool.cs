@@ -27,13 +27,16 @@ namespace ContactGloveOSC.Editor
         private static void ShowWindow()
         {
             HandSignCopyTool window = GetWindow(typeof(HandSignCopyTool), false, "HandSign Copy Tool") as HandSignCopyTool;
-            window.minSize = new Vector2(800f, 480f); // Increased initial width
-            window.maxSize = new Vector2(800f, 480f); // Increased initial width
+            window.minSize = new Vector2(800f, 480f+87f); // Increased initial width
+            //window.maxSize = new Vector2(800f, 480f); // Increased initial width
             window.LoadSettings();
         }
 
         private void OnGUI()
         {
+            var mainlogo_texture = AssetDatabase.LoadAssetAtPath<Texture>("Packages/jp.diver-x.contactgloveosc/Editor/Logo/Diver-X_Logo.png");
+            LogoDisplay(mainlogo_texture);
+
             DrawLanguageSelection();
 
             EditorGUILayout.Space();
@@ -80,8 +83,9 @@ namespace ContactGloveOSC.Editor
             EditorGUILayout.Space();
 
             EditorGUILayout.LabelField(GetLocalizedString("Status:"), EditorStyles.boldLabel);
-            scrollPosition = EditorGUILayout.BeginScrollView(scrollPosition, GUILayout.Height(80f));
-            EditorGUILayout.TextArea(statusMessage, GUILayout.ExpandHeight(true));
+            scrollPosition = EditorGUILayout.BeginScrollView(scrollPosition, GUILayout.Height(map(position.size.y,480f+87f,480f+87f+10f,80f,90f)));
+            var style = new GUIStyle( EditorStyles.textArea ){wordWrap = true};
+            EditorGUILayout.TextArea(statusMessage, style, GUILayout.ExpandHeight(true));
             EditorGUILayout.EndScrollView();
 
             EditorGUILayout.Space();
@@ -90,6 +94,32 @@ namespace ContactGloveOSC.Editor
             EditorGUILayout.LabelField("Left  : Packages/ContactGloveOSC/Runtime/Gesture/HandSign[Experimental]/Left", EditorStyles.boldLabel);
             EditorGUILayout.LabelField("Right: Packages/ContactGloveOSC/Runtime/Gesture/HandSign[Experimental]/Right", EditorStyles.boldLabel);
         }
+
+        private float map(float x, float in_min, float in_max, float out_min, float out_max) {
+        return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+        }
+
+        private void LogoDisplay(Texture logo_texture){
+            Texture2D texture2d = logo_texture as Texture2D;
+
+            float originwid = (float)texture2d.width;
+            float originvert = (float)texture2d.height;
+
+            var Space = map(position.size.x,300f,500f,10f,110f);
+
+            float wid = position.size.x - (Space*2);
+
+            var viewPosition = new Vector2(Space, 0);
+            var viewSize = new Vector2(wid, originvert*wid/originwid);
+            var texturePosition = new Vector2(0f, 0);   
+            var textureAspectRate = new Vector2(1f, 1f);
+
+            EditorGUILayout.Space(wid*originvert/originwid);
+                
+            //画像表示
+            GUI.DrawTextureWithTexCoords(new Rect(viewPosition, viewSize), logo_texture, new Rect(texturePosition, textureAspectRate));
+        }
+
         private void OnEnable()
         {
             ShowWindow();
@@ -155,15 +185,15 @@ namespace ContactGloveOSC.Editor
                     else if (key == "Initialized animations.\n")
                         return "Glove用Animationを全て初期化しました。\n";
                     else if (key == "Gesture Controller not selected in VRCAvatarDescriptor.\n")
-                        return "Gesture Controller が VRCAvatarDescriptor で選択されていません。";
-                    else if (key == "\n---\nThe structure of the GestureController may be different than expected.\nRefer to the Document and manually set the Animation to the field.\n---\n")
-                        return "\n---\nGestureControllerの構造が想定と異なる可能性があります。\nDocumentを参照し、手動でフィールドにAnimationをセットしてください。\n---\n";
+                        return "Gesture Controller が VRCAvatarDescriptor で選択されていません。\n";
+                    else if (key == "The structure of the GestureController may be different than expected. Refer to the Document and manually set the Animation to the field.\n")
+                        return "GestureControllerの構造が想定と異なる可能性があります。Documentを参照し、手動でフィールドにAnimationをセットしてください。\n";
                     else if (key == "Initialized All animations field.\n")
                         return "Animationフィールドを全て初期化しました。\n";
-                    else if (key == "Only Right Hand Animation Key was registered, \nMirror for Left Hand Sign Some Animation was enabled.\n")
-                        return "右手のキーのみが登録されていたため,\nいくつかの左手ハンドサインAnimationのMirrorを有効化しました。\n";
-                    else if (key == "Only Left Hand Animation Key was registered, \nMirror for Right Hand Sign Some Animation was enabled.\n")
-                        return "左手のキーのみが登録されていたため,\nいくつかの右手ハンドサインAnimationのMirrorを有効化しました。\n";
+                    else if (key == "Only Right Hand Animation Key was registered, Mirror for Left Hand Sign Some Animation was enabled.\n")
+                        return "右手のキーのみが登録されていたため,いくつかの左手ハンドサインAnimationのMirrorを有効化しました。\n";
+                    else if (key == "Only Left Hand Animation Key was registered, Mirror for Right Hand Sign Some Animation was enabled.\n")
+                        return "左手のキーのみが登録されていたため,いくつかの右手ハンドサインAnimationのMirrorを有効化しました。\n";
                     else
                         return key;
                 default:
@@ -300,11 +330,11 @@ namespace ContactGloveOSC.Editor
 
             if (CheckMirrorEnableCount[0] > 0)
             {
-                SyncStatus(GetLocalizedString("Only Right Hand Animation Key was registered, \nMirror for Left Hand Sign Some Animation was enabled.\n"));
+                SyncStatus(GetLocalizedString("Only Right Hand Animation Key was registered, Mirror for Left Hand Sign Some Animation was enabled.\n"));
             }
             if (CheckMirrorEnableCount[1] > 0)
             {
-                SyncStatus(GetLocalizedString("Only Left Hand Animation Key was registered, \nMirror for Right Hand Sign Some Animation was enabled.\n"));
+                SyncStatus(GetLocalizedString("Only Left Hand Animation Key was registered, Mirror for Right Hand Sign Some Animation was enabled.\n"));
             }
         }
 
@@ -552,7 +582,7 @@ namespace ContactGloveOSC.Editor
                     ? $"Layer: {layer.name}:All states are missing. \n"
                     : $"Layer: {layer.name}:全stateが見つかりません. \n"
                     );
-                SyncStatus(GetLocalizedString("\n---\nThe structure of the GestureController may be different than expected.\nRefer to the Document and manually set the Animation to the field.\n---\n"));
+                SyncStatus(GetLocalizedString("The structure of the GestureController may be different than expected. Refer to the Document and manually set the Animation to the field.\n"));
             }
             else
             {

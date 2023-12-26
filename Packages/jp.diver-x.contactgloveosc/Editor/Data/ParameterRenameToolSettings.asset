@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: ParameterRenameToolSettings
   m_EditorClassIdentifier: 
   _avDescriptor: {fileID: 0}
-  selectedLanguage: 0
+  selectedLanguage: 1

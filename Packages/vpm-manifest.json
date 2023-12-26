@@ -8,6 +8,12 @@
     },
     "nadena.dev.modular-avatar": {
       "version": "1.8.4"
+    },
+    "jp.lilxyzw.liltoon": {
+      "version": "1.5.0"
+    },
+    "vrchat.blackstartx.gesture-manager": {
+      "version": "3.8.8"
     }
   },
   "locked": {
@@ -35,6 +41,16 @@
     "nadena.dev.ndmf": {
       "version": "1.2.5",
       "dependencies": {}
+    },
+    "jp.lilxyzw.liltoon": {
+      "version": "1.5.0",
+      "dependencies": {}
+    },
+    "vrchat.blackstartx.gesture-manager": {
+      "version": "3.8.8",
+      "dependencies": {
+        "com.vrchat.avatars": "3.2.x || 3.3.x || 3.4.x || 3.5.x"
+      }
     }
   }
 }

@@ -36,13 +36,16 @@ namespace ContactGloveOSC.Editor
         private static void ShowWindow()
         {
             ParameterRenameTool window = GetWindow(typeof(ParameterRenameTool), false, "Parameter Rename Tool") as ParameterRenameTool;
-            window.maxSize = new Vector2(500f, 250f); 
-            window.minSize = new Vector2(500f, 250f);
+            window.maxSize = new Vector2(600f, 470f); 
+            window.minSize = new Vector2(300f, 225f+87f);
             window.LoadSettings();
         }
 
         private void OnGUI()
         {
+            var mainlogo_texture = AssetDatabase.LoadAssetAtPath<Texture>("Packages/jp.diver-x.contactgloveosc/Editor/Logo/Diver-X_Logo.png");
+            LogoDisplay(mainlogo_texture);
+
             GUILayout.Label(GetLocalizedString("Select Language:"), EditorStyles.boldLabel);
             settings.selectedLanguage = EditorGUILayout.Popup(settings.selectedLanguage, languageOptions);
 
@@ -98,12 +101,38 @@ namespace ContactGloveOSC.Editor
                 GUILayout.Space(10);
 
                 EditorGUILayout.LabelField(GetLocalizedString("Status:"), EditorStyles.boldLabel);
-                scrollPosition = EditorGUILayout.BeginScrollView(scrollPosition, GUILayout.Height(80f));
-                EditorGUILayout.TextArea(statusMessage, GUILayout.ExpandHeight(true));
+                scrollPosition = EditorGUILayout.BeginScrollView(scrollPosition, GUILayout.Height(map(position.size.y,225f+87f,225f+87f+10f,80f,90f)));
+                var style = new GUIStyle( EditorStyles.textArea ){wordWrap = true};
+                EditorGUILayout.TextArea(statusMessage, style, GUILayout.ExpandHeight(true));
                 EditorGUILayout.EndScrollView();
 
-                EditorGUILayout.Space(10);
+                GUILayout.Space(10);
             }
+        }
+
+        private float map(float x, float in_min, float in_max, float out_min, float out_max) {
+        return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+        }
+
+        private void LogoDisplay(Texture logo_texture){
+            Texture2D texture2d = logo_texture as Texture2D;
+
+            float originwid = (float)texture2d.width;
+            float originvert = (float)texture2d.height;
+
+            var Space = map(position.size.x,300f,500f,10f,110f);
+
+            float wid = position.size.x - (Space*2);
+
+            var viewPosition = new Vector2(Space, 0);
+            var viewSize = new Vector2(wid, originvert*wid/originwid);
+            var texturePosition = new Vector2(0f, 0);   
+            var textureAspectRate = new Vector2(1f, 1f);
+
+            EditorGUILayout.Space(wid*originvert/originwid);
+                
+            //画像表示
+            GUI.DrawTextureWithTexCoords(new Rect(viewPosition, viewSize), logo_texture, new Rect(texturePosition, textureAspectRate));
         }
 
         private void OnEnable()
