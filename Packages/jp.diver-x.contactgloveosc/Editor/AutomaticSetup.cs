@@ -204,7 +204,7 @@ namespace ContactGloveOSC.Editor
                     else if (key == "HandSign Animations.\n")
                         return "全ハンドサインAnimation。";
                     else if (key == "Revert Changes Finished.\n")
-                        return "全ての変更が元に戻りました。";
+                        return "全ての変更が元に戻りました。\n";
                     else if (key == "Failed to instantiate prefab: ")
                         return "設定用Prefabのインスタンス化に失敗しました。";
                     else if (key == "Prefab not found: ")

@@ -20,7 +20,6 @@ namespace ContactGloveOSC.Editor
         private string[] GestureParameterNames = { "_GestureLeft", "_GestureRight", "_GestureLeftWeight", "_GestureRightWeight" };
         private string[] FXParameterNames = { "cgGestureLeft", "cgGestureRight", "cgGestureLeftWeight", "cgGestureRightWeight" };
 
-
         private string statusMessage = "";
         private Vector2 scrollPosition = Vector2.zero;
 
@@ -110,6 +109,60 @@ namespace ContactGloveOSC.Editor
             }
         }
 
+        private RuntimeAnimatorController UpdateAnimatorController(AnimatorController controller)
+        {
+            string controllerPath = AssetDatabase.GetAssetPath(controller);
+            string controllerName = System.IO.Path.GetFileNameWithoutExtension(controllerPath);
+
+            // without "[ContactGloveOSC]" at the prefix.
+            if (!controllerName.StartsWith("[ContactGloveOSC]"))
+            {
+                return UpdateAndSetController(controllerPath, controllerName);
+            }
+            else
+            {
+                // if prefixed with "[ContactGloveOSC]".
+                string renamedControllerPath = "Assets/[ContactGloveOSC] RenamedController/[ContactGloveOSC] " + controllerName + ".controller";
+
+                // Check if a controller with the same name exists in the destination.
+                if (CheckControllerExistence(renamedControllerPath))
+                {
+                    // Overwrites a controller with the same name if one exists.
+                    AssetDatabase.CopyAsset(controllerPath, renamedControllerPath);
+                    AssetDatabase.Refresh();
+                }
+
+                return AssetDatabase.LoadAssetAtPath<AnimatorController>(controllerPath);
+            }
+        }
+
+        private RuntimeAnimatorController UpdateAndSetController(string controllerPath, string controllerName)
+        {
+            // Path to duplicate and save to.
+            string newPath = "Assets/[ContactGloveOSC] RenamedController/[ContactGloveOSC] " + controllerName + ".controller";
+
+            // mkdir
+            string directory = System.IO.Path.GetDirectoryName(newPath);
+            if (!System.IO.Directory.Exists(directory))
+            {
+                System.IO.Directory.CreateDirectory(directory);
+            }
+
+            // Copy and save controller
+            AssetDatabase.CopyAsset(controllerPath, newPath);
+            AssetDatabase.SaveAssets();
+            AssetDatabase.Refresh(); // refresh
+
+            SyncStatus(GetLocalizedString("Copied Controller: ")+$"{controllerName}\n"+$" >> 'Assets/[ContactGloveOSC] RenamedController/[ContactGloveOSC] {controllerName} \n");
+
+            return AssetDatabase.LoadAssetAtPath<AnimatorController>(newPath);     
+        }
+
+        private bool CheckControllerExistence(string controllerPath)
+        {
+            return AssetDatabase.LoadAssetAtPath<AnimatorController>(controllerPath) != null;
+        }
+
         private float map(float x, float in_min, float in_max, float out_min, float out_max) {
         return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
         }
@@ -131,7 +184,7 @@ namespace ContactGloveOSC.Editor
 
             EditorGUILayout.Space(wid*originvert/originwid);
                 
-            //画像表示
+            //show figure
             GUI.DrawTextureWithTexCoords(new Rect(viewPosition, viewSize), logo_texture, new Rect(texturePosition, textureAspectRate));
         }
 
@@ -228,6 +281,13 @@ namespace ContactGloveOSC.Editor
                 return;
             }
 
+            //set controller VRC Avatar Descriptor.
+            settings._avDescriptor.baseAnimationLayers[_layerSelect_gesture].animatorController = UpdateAnimatorController(selectedController_Gesture);
+            settings._avDescriptor.baseAnimationLayers[_layerSelect_fx].animatorController = UpdateAnimatorController(selectedController_FX);
+            //Update focus controller for rename. 
+            selectedController_Gesture = AssetDatabase.LoadAssetAtPath<AnimatorController>(AssetDatabase.GetAssetPath(settings._avDescriptor.baseAnimationLayers[_layerSelect_gesture].animatorController));
+            selectedController_FX = AssetDatabase.LoadAssetAtPath<AnimatorController>(AssetDatabase.GetAssetPath(settings._avDescriptor.baseAnimationLayers[_layerSelect_fx].animatorController));
+
             string controllerPath_Gesture = AssetDatabase.GetAssetPath(selectedController_Gesture);
             string controllerPath_FX = AssetDatabase.GetAssetPath(selectedController_FX);
 
@@ -272,6 +332,13 @@ namespace ContactGloveOSC.Editor
             {
                 return false;
             }
+
+            //set controller VRC Avatar Descriptor.
+            settings._avDescriptor.baseAnimationLayers[_layerSelect_gesture].animatorController = UpdateAnimatorController(selectedController_Gesture);
+            settings._avDescriptor.baseAnimationLayers[_layerSelect_fx].animatorController = UpdateAnimatorController(selectedController_FX);
+            //Update focus controller for rename. 
+            selectedController_Gesture = AssetDatabase.LoadAssetAtPath<AnimatorController>(AssetDatabase.GetAssetPath(settings._avDescriptor.baseAnimationLayers[_layerSelect_gesture].animatorController));
+            selectedController_FX = AssetDatabase.LoadAssetAtPath<AnimatorController>(AssetDatabase.GetAssetPath(settings._avDescriptor.baseAnimationLayers[_layerSelect_fx].animatorController));
 
             string controllerPath_Gesture = AssetDatabase.GetAssetPath(selectedController_Gesture);
             string controllerPath_FX = AssetDatabase.GetAssetPath(selectedController_FX);
@@ -349,6 +416,8 @@ namespace ContactGloveOSC.Editor
                         return "パラメータをリネーム";
                     else if (key == "Revert Changes")
                         return "変更を元に戻す";
+                    else if (key == "Copied Controller: ")
+                        return "コントローラを複製しました: ";
                     else
                         return key;
                 default:
@@ -409,6 +478,7 @@ namespace ContactGloveOSC.Editor
 
         public void AutoSetRenameParameters()
         {
+            Debug.Log(settings._avDescriptor.baseAnimationLayers[_layerSelect_fx].GetType().Name);
             if (CheckParametersExist())
             {
                 RenameParameters();
