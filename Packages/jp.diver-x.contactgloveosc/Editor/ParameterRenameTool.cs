@@ -478,7 +478,6 @@ namespace ContactGloveOSC.Editor
 
         public void AutoSetRenameParameters()
         {
-            Debug.Log(settings._avDescriptor.baseAnimationLayers[_layerSelect_fx].GetType().Name);
             if (CheckParametersExist())
             {
                 RenameParameters();
