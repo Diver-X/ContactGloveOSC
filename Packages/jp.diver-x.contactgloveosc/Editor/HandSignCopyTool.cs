@@ -5,6 +5,7 @@ using UnityEditor;
 using UnityEditor.Animations;
 using VRC.SDK3.Avatars.Components;
 using System;
+using System.Collections.Generic;
 
 namespace ContactGloveOSC.Editor
 {
@@ -429,7 +430,7 @@ namespace ContactGloveOSC.Editor
                 SyncStatus(
                     (settings.selectedLanguage == 0)
                     ? $"Required Animator key is missing from hand sign animation: {animationClip.name} for your avatar. \n"
-                    : $"Avatarの ハンドサインAnimation: {animationClip.name} に 必要な　Animator key がありません。\n"
+                    : $"Avatarの ハンドサインAnimation: {animationClip.name} に 必要な Animator key がありません。\n"
                 );
 
                 return true;
@@ -549,6 +550,16 @@ namespace ContactGloveOSC.Editor
         {
             // expected Animation names
             string[] expectedStates = { "Fist", "Open", "Point", "Peace", "RockNRoll", "Gun", "Thumbs up" };
+            // mapping for alternative state names
+            Dictionary<string, string> alternativeStates = new Dictionary<string, string>
+            {
+                { "Open", "HandOpen" },
+                { "Point", "FingerPoint" },
+                { "Peace", "Victory" },
+                { "Gun", "HandGun" },
+                { "Thumbs up", "ThumbsUp" }
+            };
+
             // flag all states are missing
             bool allStatesMissing = true;
 
@@ -556,7 +567,7 @@ namespace ContactGloveOSC.Editor
             foreach (ChildAnimatorState state in layer.stateMachine.states)
             {
                 int index = GetIndexFromStateName(state.state.name);
-                if(index != -1)
+                if (index != -1)
                 {
                     // Set animation for Left Hand or Right Hand based on the layer
                     if (layer.name == "Left Hand")
@@ -571,7 +582,6 @@ namespace ContactGloveOSC.Editor
                     }
                     allStatesMissing = false;
                 }
-                
             }
 
             // If all states are missing, display Layer name in statusMessage
@@ -579,9 +589,9 @@ namespace ContactGloveOSC.Editor
             {
                 SyncStatus(
                     (settings.selectedLanguage == 0)
-                    ? $"Layer: {layer.name}:All states are missing. \n"
-                    : $"Layer: {layer.name}:全stateが見つかりません. \n"
-                    );
+                    ? $"Layer: {layer.name}: All states are missing. \n"
+                    : $"Layer: {layer.name}: 全stateが見つかりません. \n"
+                );
                 SyncStatus(GetLocalizedString("The structure of the GestureController may be different than expected. Refer to the Document and manually set the Animation to the field.\n"));
             }
             else
@@ -589,13 +599,20 @@ namespace ContactGloveOSC.Editor
                 // If expected state is missing, display name in statusMessage
                 foreach (string expectedState in expectedStates)
                 {
-                    if (Array.FindIndex(layer.stateMachine.states, s => s.state.name == expectedState) == -1)
+                    // Check if the state or its alternative exists in the layer
+                    bool stateFound = Array.FindIndex(layer.stateMachine.states, s => s.state.name == expectedState) != -1;
+                    bool alternativeStateFound = alternativeStates.ContainsKey(expectedState) &&
+                                                Array.FindIndex(layer.stateMachine.states, s => s.state.name == alternativeStates[expectedState]) != -1;
+
+                    if (!stateFound && !alternativeStateFound)
                     {
+                        string altname = (alternativeStates.ContainsKey(expectedState)) ? $" / {alternativeStates[expectedState]}" : "";
+
                         SyncStatus(
                             (settings.selectedLanguage == 0)
-                            ? $"Expected state not found: {expectedState} ( '{layer.name}' Layer )\n"
-                            : $"stateが見つかりません: {expectedState} ( '{layer.name}' レイヤー )\n"
-                            );
+                            ? $"Expected state not found: {expectedState}"+altname+$" ( '{layer.name}' Layer )\n"
+                            : $"stateが見つかりません: {expectedState}"+altname+$" ( '{layer.name}' レイヤー )\n"
+                        );
                     }
                 }
             }
@@ -606,9 +623,8 @@ namespace ContactGloveOSC.Editor
                     (settings.selectedLanguage == 0)
                     ? $"Auto Set animations from {layer.name} layer.\n"
                     : $"{layer.name} レイヤーから Animation を 自動セットしました。\n"
-                    );
+                );
             }
-            
         }
 
         private int GetIndexFromStateName(string stateName)
@@ -622,6 +638,11 @@ namespace ContactGloveOSC.Editor
                 case "RockNRoll": return 4;
                 case "Gun": return 5;
                 case "Thumbs up": return 6;
+                case "HandOpen": return 1; //Expected orthographical variants
+                case "FingerPoint": return 2;
+                case "Victory": return 3;
+                case "HandGun": return 5;
+                case "ThumbsUp": return 6;
                 default: return -1; // Handle unexpected state names
             }
         }
