@@ -6,7 +6,7 @@
 !com.vrchat.core.*/
 com.vrchat.*/
 # ignore editor savedates
-Packages/jp.diver-x.contactgloveosc/Data
+Packages/jp.diver-x.contactgloveosc/Editor/Data
 
 # ignore other package 
 Packages/nadena.dev.modular-avatar
