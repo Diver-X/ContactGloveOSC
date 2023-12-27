@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bb122659f724ebf85fe095ac02dc339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 9100000, guid: a7f5de08d0927534fab33e1cfc31ca22, type: 2}
+  animator: {fileID: 9100000, guid: add0bd9fb32980c469e54bbdba1a28ed, type: 2}
   layerType: 3
   deleteAttachedAnimator: 0
   pathMode: 0
