@@ -22,6 +22,7 @@ namespace ContactGloveOSC.Editor
                     if (instance == null)
                     {
                         instance = CreateInstance<HandSignCopyToolSettings>();
+                        instance.hideFlags = HideFlags.DontSave;
                         UnityEditor.AssetDatabase.CreateAsset(instance, "Packages/jp.diver-x.contactgloveosc/Editor/Data/HandSignCopyToolSettings.asset");
                         UnityEditor.AssetDatabase.SaveAssets();
                     }

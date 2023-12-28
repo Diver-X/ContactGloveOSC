@@ -22,6 +22,7 @@ namespace ContactGloveOSC.Editor
                     if (instance == null)
                     {
                         instance = CreateInstance<AutomaticSetupSettings>();
+                        instance.hideFlags = HideFlags.DontSave;
                         UnityEditor.AssetDatabase.CreateAsset(instance, "Packages/jp.diver-x.contactgloveosc/Editor/Data/AutomaticSetupSettings.asset");
                         UnityEditor.AssetDatabase.SaveAssets();
                     }

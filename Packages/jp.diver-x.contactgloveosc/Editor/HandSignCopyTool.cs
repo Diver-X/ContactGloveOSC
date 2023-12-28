@@ -373,6 +373,8 @@ namespace ContactGloveOSC.Editor
                     
                 }
 
+                SaveAsset(destinationAnimation);
+
                 SyncStatus(
                     (settings.selectedLanguage == 0)
                     ? $"Copied {source.name} to {destinationName}\n"
@@ -495,9 +497,7 @@ namespace ContactGloveOSC.Editor
 
                 // initialize origin Animation
                 destinationAnimation.ClearCurves();
-
-                AssetDatabase.SaveAssets();
-                AssetDatabase.Refresh();
+                SaveAsset(destinationAnimation);
             }
             else
             {
@@ -661,9 +661,24 @@ namespace ContactGloveOSC.Editor
                 settings = CreateInstance<HandSignCopyToolSettings>();
                 AssetDatabase.CreateAsset(settings, "Packages/jp.diver-x.contactgloveosc/Editor/Data/HandSignCopyToolSettings.asset");
             }
-            EditorUtility.SetDirty(settings);
+            SaveAsset(settings);
+        }
+
+        private void SaveAsset(UnityEngine.Object asset)
+        {
+            if (asset == null)
+            {
+                Debug.LogError("Cannot save null asset.");
+                return;
+            }
+            //アセットがScriptableObjectまたはMonoBehaviourであるか確認
+            if ((asset is ScriptableObject) || (asset is MonoBehaviour))
+            {
+                EditorUtility.SetDirty(asset);
+            }
+            
             AssetDatabase.SaveAssets();
-            AssetDatabase.Refresh(); // reflesh
+            AssetDatabase.Refresh();
         }
 
         private void LoadSettings()

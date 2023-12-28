@@ -25,6 +25,7 @@ namespace ContactGloveOSC.Editor
                     if (instance == null)
                     {
                         instance = CreateInstance<ParameterRenameToolSettings>();
+                        instance.hideFlags = HideFlags.DontSave;
                         UnityEditor.AssetDatabase.CreateAsset(instance, "Packages/jp.diver-x.contactgloveosc/Editor/Data/ParameterRenameToolSettings.asset");
                         UnityEditor.AssetDatabase.SaveAssets();
                     }

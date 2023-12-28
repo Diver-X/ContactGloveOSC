@@ -111,8 +111,10 @@ namespace ContactGloveOSC.Editor
 
         private RuntimeAnimatorController UpdateAnimatorController(AnimatorController controller)
         {
+            
             string controllerPath = AssetDatabase.GetAssetPath(controller);
             string controllerName = System.IO.Path.GetFileNameWithoutExtension(controllerPath);
+            RuntimeAnimatorController focusController = AssetDatabase.LoadAssetAtPath<AnimatorController>(controllerPath);
 
             // without "[ContactGloveOSC]" at the prefix.
             if (!controllerName.StartsWith("[ContactGloveOSC]"))
@@ -129,15 +131,17 @@ namespace ContactGloveOSC.Editor
                 {
                     // Overwrites a controller with the same name if one exists.
                     AssetDatabase.CopyAsset(controllerPath, renamedControllerPath);
-                    AssetDatabase.Refresh();
+                    focusController = AssetDatabase.LoadAssetAtPath<AnimatorController>(controllerPath);
+                    SaveAsset(focusController);
                 }
 
-                return AssetDatabase.LoadAssetAtPath<AnimatorController>(controllerPath);
+                return focusController;
             }
         }
 
         private RuntimeAnimatorController UpdateAndSetController(string controllerPath, string controllerName)
         {
+            RuntimeAnimatorController focusController = null;
             // Path to duplicate and save to.
             string newPath = "Assets/[ContactGloveOSC] RenamedController/[ContactGloveOSC] " + controllerName + ".controller";
 
@@ -150,12 +154,12 @@ namespace ContactGloveOSC.Editor
 
             // Copy and save controller
             AssetDatabase.CopyAsset(controllerPath, newPath);
-            AssetDatabase.SaveAssets();
-            AssetDatabase.Refresh(); // refresh
+            focusController = AssetDatabase.LoadAssetAtPath<AnimatorController>(newPath);
+            SaveAsset(focusController);
 
             SyncStatus(GetLocalizedString("Copied Controller: ")+$"{controllerName}\n"+$" >> 'Assets/[ContactGloveOSC] RenamedController/[ContactGloveOSC] {controllerName} \n");
 
-            return AssetDatabase.LoadAssetAtPath<AnimatorController>(newPath);     
+            return focusController;     
         }
 
         private bool CheckControllerExistence(string controllerPath)
@@ -311,7 +315,8 @@ namespace ContactGloveOSC.Editor
 
             File.WriteAllText(controllerPath_Gesture, controllerText_Gesture);
             File.WriteAllText(controllerPath_FX, controllerText_FX);
-            AssetDatabase.Refresh();
+            SaveAsset(AssetDatabase.LoadAssetAtPath<AnimatorController>(controllerPath_Gesture));
+            SaveAsset(AssetDatabase.LoadAssetAtPath<AnimatorController>(controllerPath_FX));
         }
 
         private bool RevertChanges()
@@ -377,7 +382,8 @@ namespace ContactGloveOSC.Editor
             {
                 File.WriteAllText(controllerPath_Gesture, controllerText_Gesture);
                 File.WriteAllText(controllerPath_FX, controllerText_FX);
-                AssetDatabase.Refresh();
+                SaveAsset(AssetDatabase.LoadAssetAtPath<AnimatorController>(controllerPath_Gesture));
+                SaveAsset(AssetDatabase.LoadAssetAtPath<AnimatorController>(controllerPath_FX));
             }
 
             return changesReverted;
@@ -440,9 +446,24 @@ namespace ContactGloveOSC.Editor
                 AssetDatabase.CreateAsset(settings, "Packages/jp.diver-x.contactgloveosc/Editor/Data/ParameterRenameToolSettings.asset");
             }
 
-            EditorUtility.SetDirty(settings);
+            SaveAsset(settings);
+        }
+
+        private void SaveAsset(UnityEngine.Object asset)
+        {
+            if (asset == null)
+            {
+                Debug.LogError("Cannot save null asset.");
+                return;
+            }
+            //アセットがScriptableObjectまたはMonoBehaviourであるか確認
+            if ((asset is ScriptableObject) || (asset is MonoBehaviour))
+            {
+                EditorUtility.SetDirty(asset);
+            }
+            
             AssetDatabase.SaveAssets();
-            AssetDatabase.Refresh(); // refresh
+            AssetDatabase.Refresh();
         }
 
         private void LoadSettings()

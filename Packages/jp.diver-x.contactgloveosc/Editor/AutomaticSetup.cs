@@ -166,16 +166,16 @@ namespace ContactGloveOSC.Editor
 
         private void OnEnable()
         {
-
             ShowWindow();
             settings.onwindow = true;
+            SaveAsset(settings);
         }
 
         private void OnDisable()
         {
-
             SaveSettings();
             settings.onwindow = false;
+            SaveAsset(settings);
         }
 
         private string GetLocalizedString(string key)
@@ -420,9 +420,24 @@ namespace ContactGloveOSC.Editor
                 settings = CreateInstance<AutomaticSetupSettings>();
                 AssetDatabase.CreateAsset(settings, "Packages/jp.diver-x.contactgloveosc/Editor/Data/AutomaticSetupSettings.asset");
             }
-            EditorUtility.SetDirty(settings);
+            SaveAsset(settings);
+        }
+//sf
+        private void SaveAsset(UnityEngine.Object asset)
+        {
+            if (asset == null)
+            {
+                Debug.LogError("Cannot save null asset.");
+                return;
+            }
+            //アセットがScriptableObjectまたはMonoBehaviourであるか確認
+            if ((asset is ScriptableObject) || (asset is MonoBehaviour))
+            {
+                EditorUtility.SetDirty(asset);
+            }
+            
             AssetDatabase.SaveAssets();
-            AssetDatabase.Refresh(); // reflesh
+            AssetDatabase.Refresh();
         }
 
         private void LoadSettings()
