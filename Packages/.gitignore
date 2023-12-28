@@ -5,7 +5,8 @@
 !jp.diver-x.contactgloveosc
 !com.vrchat.core.*/
 com.vrchat.*/
-
+Packages/jp.diver-x.contactgloveosc/Editor/Data
+Packages/jp.diver-x.contactgloveosc/Editor/Data.meta
 # ignore other package 
 Packages/nadena.dev.modular-avatar
 Packages/nadena.dev.ndmf
