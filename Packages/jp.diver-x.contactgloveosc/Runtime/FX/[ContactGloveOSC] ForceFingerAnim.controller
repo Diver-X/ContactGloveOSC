@@ -1167,7 +1167,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: '[ContactGloveOSC] Enable_GestureToggleOSC Sync'
-  m_Speed: 1
+  m_Speed: 61
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 5178180878373323446}
@@ -2850,7 +2850,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: '[ContactGloveOSC] Disable_GestureToggleOSC '
-  m_Speed: 1
+  m_Speed: 61
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 6648426840253680284}
