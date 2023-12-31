@@ -179,7 +179,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6104415534977080634}
@@ -232,7 +232,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -177466699455760051}
@@ -735,7 +735,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8826967398132425882}
@@ -928,7 +928,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3706725047130959045}
@@ -984,7 +984,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2750619810366150195}
@@ -1254,7 +1254,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6457726844724130035}
@@ -1421,7 +1421,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -177466699455760051}
@@ -1640,7 +1640,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1658072107368711348}
@@ -1724,7 +1724,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -8701366521267384799}
@@ -1749,7 +1749,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8048367052525527354}
@@ -1952,7 +1952,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2170560180990981940}
@@ -2143,7 +2143,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7346385877694389863}
@@ -2258,7 +2258,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -8513259806260061021}
@@ -2283,7 +2283,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6104415534977080634}
@@ -2403,7 +2403,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5229921393639271413}
@@ -2534,7 +2534,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -8958921323079055842}
@@ -2807,7 +2807,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -8958921323079055842}
@@ -2863,7 +2863,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6104415534977080634}
@@ -3170,7 +3170,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8170549484900639343}
@@ -3390,7 +3390,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3217103694706408267}
@@ -3606,7 +3606,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6836908629738102565}
@@ -3708,7 +3708,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6092803249992859249}
@@ -3733,7 +3733,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6104415534977080634}
@@ -3897,7 +3897,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6104415534977080634}
@@ -3922,7 +3922,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7700066503275961066}
@@ -4406,7 +4406,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 746952583849358950}
@@ -4543,7 +4543,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7936481832213627406}
@@ -4568,7 +4568,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6504598760410234314}
@@ -4593,7 +4593,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7829955001184782145}
@@ -4674,7 +4674,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2494848319125978603}
@@ -4868,7 +4868,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7365517456227050729}
@@ -5229,7 +5229,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6104415534977080634}
@@ -5461,7 +5461,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8048367052525527354}
@@ -5756,7 +5756,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -8583623299511892547}
@@ -5781,7 +5781,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6104415534977080634}
@@ -5887,7 +5887,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2750619810366150195}
@@ -6164,7 +6164,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6104415534977080634}
@@ -6189,7 +6189,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7365517456227050729}
@@ -6527,7 +6527,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: '[ContactGloveOSC]'
+  - m_Name: ContactGloveOSC
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -10623,7 +10623,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2170560180990981940}
@@ -11108,7 +11108,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7346385877694389863}
@@ -12618,7 +12618,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6836908629738102565}
@@ -12668,7 +12668,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1062194037112859923}
@@ -12722,7 +12722,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -8513259806260061021}
@@ -12747,7 +12747,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2170560180990981940}
@@ -12772,7 +12772,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2170560180990981940}
@@ -12974,7 +12974,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 308728192383655601}
@@ -13202,7 +13202,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7733648907290948683}
@@ -13447,7 +13447,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6092803249992859249}
@@ -13590,7 +13590,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5201911564399532948}
@@ -13642,7 +13642,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7219667970644176200}
@@ -13847,7 +13847,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -386608119255772402}
@@ -14025,7 +14025,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6104415534977080634}
@@ -14164,7 +14164,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2170560180990981940}
@@ -14189,7 +14189,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 308728192383655601}
@@ -14241,7 +14241,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7219667970644176200}
@@ -14679,7 +14679,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2494848319125978603}
@@ -14976,7 +14976,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2170560180990981940}
@@ -15053,7 +15053,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3432766652732710598}
@@ -15256,7 +15256,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7936481832213627406}
@@ -15616,7 +15616,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2170560180990981940}
@@ -15724,7 +15724,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1866698633701326062}
@@ -15811,7 +15811,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2007224082533881813}
@@ -15892,7 +15892,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2170560180990981940}
@@ -15917,7 +15917,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2940654826770598127}
@@ -16087,7 +16087,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4667180555408831683}
@@ -16197,7 +16197,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3706725047130959045}
@@ -16571,7 +16571,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2131571952778773804}
@@ -16714,7 +16714,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1062194037112859923}
@@ -16739,7 +16739,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2940654826770598127}
@@ -16764,7 +16764,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1063638014811721676}
@@ -17101,7 +17101,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7219667970644176200}
@@ -17211,7 +17211,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2131571952778773804}
@@ -17298,7 +17298,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1848188508372841282}
@@ -17461,7 +17461,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 746952583849358950}
@@ -17486,7 +17486,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2170560180990981940}
@@ -17785,7 +17785,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6104415534977080634}
@@ -17946,7 +17946,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -834418648401599460}
@@ -18189,7 +18189,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2170560180990981940}

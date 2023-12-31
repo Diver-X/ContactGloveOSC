@@ -123,8 +123,8 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: '[ContactGloveOSC]'
+  - name: ContactGloveOSC
     valueType: 2
-    saved: 0
+    saved: 1
     defaultValue: 0
     networkSynced: 1

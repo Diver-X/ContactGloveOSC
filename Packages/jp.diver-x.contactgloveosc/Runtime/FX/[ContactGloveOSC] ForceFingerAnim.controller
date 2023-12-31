@@ -39,7 +39,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 3
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3107313688975101536}
@@ -64,7 +64,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7892971942126940580}
@@ -92,7 +92,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -145,7 +145,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1034985349258140195}
@@ -299,7 +299,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1013448231043749472}
@@ -380,7 +380,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6837407079054817040}
@@ -433,7 +433,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7892971942126940580}
@@ -461,7 +461,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureLeft
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1094250438188058584}
@@ -508,7 +508,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3451088811194124211}
@@ -536,7 +536,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureRight
     m_EventTreshold: 5
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -564,7 +564,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureRight
     m_EventTreshold: 4
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2345625610550968301}
@@ -611,7 +611,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3880036195176169452}
@@ -719,7 +719,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 6
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2848444886323665190}
@@ -1013,7 +1013,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7135244320842850433}
@@ -1038,7 +1038,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3451088811194124211}
@@ -1093,7 +1093,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRight
     m_EventTreshold: 1
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -1229,7 +1229,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureRight
     m_EventTreshold: 2
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -1257,7 +1257,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureLeft
     m_EventTreshold: 6
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2848444886323665190}
@@ -1310,7 +1310,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRight
     m_EventTreshold: 6
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -1411,7 +1411,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRight
     m_EventTreshold: 2
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3324083315703639132}
@@ -1439,7 +1439,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5383175316948259240}
@@ -1464,7 +1464,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4171911620076324054}
@@ -1520,7 +1520,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1094250438188058584}
@@ -1548,7 +1548,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRight
     m_EventTreshold: 2
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -1603,7 +1603,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureLeft
     m_EventTreshold: 7
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -1655,7 +1655,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6011587207626521458}
@@ -1712,7 +1712,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1013448231043749472}
@@ -1950,7 +1950,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureLeft
     m_EventTreshold: 4
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -2028,7 +2028,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureRight
     m_EventTreshold: 6
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -2081,7 +2081,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureLeft
     m_EventTreshold: 4
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7141094947628456452}
@@ -2136,7 +2136,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureRight
     m_EventTreshold: 1
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4334419723388358638}
@@ -2164,7 +2164,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureLeft
     m_EventTreshold: 3
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3107313688975101536}
@@ -2339,7 +2339,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureRight
     m_EventTreshold: 1
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -2396,7 +2396,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRight
     m_EventTreshold: 5
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -2497,7 +2497,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -2525,7 +2525,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 7
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -2606,7 +2606,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureLeft
     m_EventTreshold: 3
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -2799,7 +2799,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureRight
     m_EventTreshold: 6
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2420370703749077631}
@@ -2910,7 +2910,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 7
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3348096139323627420}
@@ -2987,7 +2987,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 6
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -3066,7 +3066,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -3194,7 +3194,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRight
     m_EventTreshold: 4
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2345625610550968301}
@@ -3219,7 +3219,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7135244320842850433}
@@ -3269,7 +3269,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4100832301307202808}
@@ -3326,97 +3326,97 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: cgGestureRight
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: cgGestureLeftWeight
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: cgGestureRightWeight
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: '[ContactGloveOSC]'
+    m_Controller: {fileID: 0}
+  - m_Name: ContactGloveOSC
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: AFK
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: GestureLeft
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: GestureRight
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: GestureLeftWeight
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: GestureRightWeight
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: CGGestureLeft
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: CGGestureRight
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: CGGestureLeftWeight
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: CGGestureRightWeight
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: _awake_GestureToggle_OSC
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: _asleep_GestureToggle_OSC
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: '[ContactGloveOSC] GestureLeftConverter'
@@ -3502,7 +3502,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureRight
     m_EventTreshold: 3
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -3559,7 +3559,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 4
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -3587,7 +3587,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRight
     m_EventTreshold: 5
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4056204473488309214}
@@ -3708,7 +3708,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5383175316948259240}
@@ -3813,7 +3813,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRight
     m_EventTreshold: 3
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -3841,7 +3841,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 3
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -4093,7 +4093,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 4
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7141094947628456452}
@@ -4118,7 +4118,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2517888044235164506}
@@ -4143,7 +4143,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6011587207626521458}
@@ -4168,7 +4168,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1595965002898655381}
@@ -4236,7 +4236,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureRight
     m_EventTreshold: 5
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4056204473488309214}
@@ -4289,7 +4289,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRight
     m_EventTreshold: 3
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6892656376466744078}
@@ -4314,7 +4314,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6614181790560255611}
@@ -4342,7 +4342,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -4367,7 +4367,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6614181790560255611}
@@ -4420,7 +4420,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 1
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -4494,7 +4494,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1034985349258140195}
@@ -4519,7 +4519,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4100832301307202808}
@@ -4547,7 +4547,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureLeft
     m_EventTreshold: 2
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -4598,7 +4598,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureRight
     m_EventTreshold: 7
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -4626,7 +4626,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureRight
     m_EventTreshold: 3
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6892656376466744078}
@@ -4654,7 +4654,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRight
     m_EventTreshold: 6
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2420370703749077631}
@@ -4682,7 +4682,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRight
     m_EventTreshold: 7
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -4941,7 +4941,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureLeft
     m_EventTreshold: 7
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3348096139323627420}
@@ -4969,7 +4969,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureLeft
     m_EventTreshold: 1
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 14439611191148200}
@@ -4997,7 +4997,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRight
     m_EventTreshold: 7
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5991745427927736073}
@@ -5097,7 +5097,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 2
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -5211,7 +5211,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureLeft
     m_EventTreshold: 1
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -5368,7 +5368,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -5423,7 +5423,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 1
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 14439611191148200}
@@ -5568,7 +5568,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureLeft
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -5727,7 +5727,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureLeft
     m_EventTreshold: 6
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -5809,7 +5809,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureRight
     m_EventTreshold: 4
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -5909,7 +5909,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRight
     m_EventTreshold: 1
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4334419723388358638}
@@ -6050,7 +6050,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureLeft
     m_EventTreshold: 2
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 9141809669041480471}
@@ -6103,7 +6103,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureRight
     m_EventTreshold: 7
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5991745427927736073}
@@ -6153,7 +6153,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3027777329213044768}
@@ -6178,7 +6178,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3027777329213044768}
@@ -6230,7 +6230,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2517888044235164506}
@@ -6356,7 +6356,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1595965002898655381}
@@ -6445,7 +6445,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 2
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 9141809669041480471}
@@ -6527,7 +6527,7 @@ AnimatorStateTransition:
     m_ConditionEvent: CGGestureRight
     m_EventTreshold: 2
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3324083315703639132}
@@ -6552,7 +6552,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3880036195176169452}
@@ -6605,7 +6605,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRight
     m_EventTreshold: 4
   - m_ConditionMode: 2
-    m_ConditionEvent: '[ContactGloveOSC]'
+    m_ConditionEvent: ContactGloveOSC
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}

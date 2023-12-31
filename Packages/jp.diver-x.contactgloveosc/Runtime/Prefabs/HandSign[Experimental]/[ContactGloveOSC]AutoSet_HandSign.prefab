@@ -265,7 +265,7 @@ MonoBehaviour:
     localOnly: 0
     defaultValue: 0
     saved: 0
-  - nameOrPrefix: '[ContactGloveOSC]'
+  - nameOrPrefix: ContactGloveOSC
     remapTo: 
     internalParameter: 0
     isPrefix: 0
