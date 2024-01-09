@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: '[ContactGloveOSC]Enable'
   m_EditorClassIdentifier: 
   controls:
-  - name: '[ContactGloveOSC]\nEnable'
+  - name: '[CGOSC] Enable'
     icon: {fileID: 2800000, guid: f62e8e040d3aaf74bbff470f927263ae, type: 3}
     type: 102
     parameter:
